@@ -29,10 +29,6 @@ function switchStyle() {
     }
 }
 
-// for (let i = 0; i < themeIcons.length; i++) {
-//     themeIcons[i].addEventListener("click", switchStyle);  
-// }
-
 themeToggle.addEventListener('click', switchStyle);
 
 /* JS for closing components */
@@ -46,7 +42,6 @@ for (let i = 0; i < elements.length; i++) {
 /*Smooth scrolling */
 const scrollButton = document.querySelector(".doc-float");
 scrollButton.addEventListener("click", (e) => {
-    // e.preventDefault();
     document.querySelector("#top-section").scrollIntoView({
         behavior: "smooth",
         block: "start"
