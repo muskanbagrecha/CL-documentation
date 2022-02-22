@@ -6,23 +6,14 @@ A simple modern, and responsive framework for building components on the fly.
 
 [Muskan](https://github.com/muskanbagrecha)
 
-<br>
-
----
-
 ## Full Documentation
 
-[Demo]()
+[Demo](fashgram-ui-documentation.netlify.app)
 
-<br>
-
----
 
 ## Quick Start
 
 To start using this component library, paste the following code snippet in your HTML head tag. Please note that your own stylesheets should be included after this stylesheet to allow customization.
-
-<br>
 
 For Light theme:
 
@@ -44,12 +35,11 @@ For Dark theme:
 
 You can also import the library in CSS:
 
-```css
-@import url("https://magnificentui.netlify.app/src/magnificent.css");
+```html
+<style>
+@import url("https://fashgram-ui.netlify.app/darktheme.css");
+</style>
 ```
-
-<br>
-
 
 ### Fashgram UI contains the following Components
 
@@ -71,13 +61,13 @@ You can also import the library in CSS:
 
 > [8. Input](#input)
 
-> [9. Lists](#list)
+> [9. Lists](#lists)
 
 > [10. Modal](#modal)
 
 > [11. Navigation](#navigation)
 
-> [12. Rating](#rating)
+> [12. Rating](#ratings)
 
 > [13. Slider](#slider)
 
@@ -90,7 +80,7 @@ You can also import the library in CSS:
 
 Alerts are used to notify the user of an important event or action. It can prompt users to take a specific action and can also be dismissed.
 
-You will find the following types of _Alert_ on 
+You will find the following types of _Alert_ on https://fashgram-ui-documentation.netlify.app/alert.html
 
 > Basic and Descriptive Alert
 
@@ -110,7 +100,7 @@ You will find the following types of _Alert_ on
 
 Avatar can be used to show a user's profile picture on the profile information page, on the navigation bar, and in blogs grid items. A total of 5 sizes are available: xl, l, m, s, xs.
 
-You will find the following types of _Avatar_ 
+You will find the following types of _Avatar_ https://fashgram-ui-documentation.netlify.app/avatar.html
 
 > Standard Round Avatars 
 
@@ -127,7 +117,7 @@ You will find the following types of _Avatar_
 
 Badges can be used to relay some information. For example, a status badge can be used to indicate whether a user is online or offline.
 
-You will find the following types of _Badge_ on 
+You will find the following types of _Badge_ on https://fashgram-ui-documentation.netlify.app/badge.html
 
 > Status badge: Status badge indicates whether the user is online, offline or away.
 
@@ -141,7 +131,7 @@ You will find the following types of _Badge_ on
 
 The button component can be used to trigger an action. This component library supports multiple variants of buttons which can be customized easily.
 
-You will find the following types of _Button_ on 
+You will find the following types of _Button_ on https://fashgram-ui-documentation.netlify.app/button.html
 
 > Standard Button
 
@@ -172,7 +162,7 @@ You will find the following types of _Button_ on
 Cards are used to display content and action on a particular topic.
 It provides a flexible and extensible content container with multiple variants and options.
 
-You will find the following types of _Card_ on 
+You will find the following types of _Card_ on https://fashgram-ui-documentation.netlify.app/card.html
 
 > Vertical Cards
 
@@ -192,7 +182,7 @@ You will find the following types of _Card_ on
 
 A grid layout can be used to break down your layout into sections.
 
-You will find the following types of _Grid_ on 
+You will find the following types of _Grid_ on https://fashgram-ui-documentation.netlify.app/grid.html
 
 > Grid 50-50
 
@@ -202,7 +192,7 @@ You will find the following types of _Grid_ on
 
 Image components are used when you need to display pictures.
 
-You will find the following types of _Image_ on 
+You will find the following types of _Image_ on https://fashgram-ui-documentation.netlify.app/image.html
 
 > Responsive Image
 
@@ -214,7 +204,7 @@ You will find the following types of _Image_ on
 
 The Input HTML element is used to create interactive controls for web-based forms in order to accept data from the user.
 
-You will find the following types of _Input_ on 
+You will find the following types of _Input_ on https://fashgram-ui-documentation.netlify.app/input.html
 
 > Active form input fields
 
@@ -229,7 +219,7 @@ You will find the following types of _Input_ on
 
 Lists are used to display content in an ordered manner.
 
-You will find the following types of _Lists_ on
+You will find the following types of _Lists_ on https://fashgram-ui-documentation.netlify.app/lists.html
 
 > Unordered menu List
 
@@ -241,14 +231,14 @@ You will find the following types of _Lists_ on
 
 A modal is a dialog box/popup window that is displayed on top of the current page. It gets closed only with close button on the pop-up.
 
-[Live_Demo]()
+[Live_Demo](https://fashgram-ui-documentation.netlify.app/modal.html)
 
 ---
 
 ### Navigation
 
 The navigation is responsive and will open as full/left/right on small screens. The navbar of this documentation site is an example of full variant. Note that for documentation purposes, the burger menu has been disabled. But you can refer to the main documentation navbar for live demo.
-You will find the following types of _Navigations_ on
+You will find the following types of _Navigations_ on https://fashgram-ui-documentation.netlify.app/navigation.html
 
 > Navigation full - add navigation-full
 > Navigation left - add navigation-left
@@ -260,7 +250,7 @@ You will find the following types of _Navigations_ on
 
 Ratings are used to show the user the rating of a product or service.
 
-You will find the following types of _Ratings_ on
+You will find the following types of _Ratings_ on https://fashgram-ui-documentation.netlify.app/rating.html
 
 > Read only ratings
 
@@ -270,13 +260,11 @@ You will find the following types of _Ratings_ on
 
 ### Slider
 
-Ratings are used to show the user the rating of a product or service.
+Sliders can be used to select between a range of values.
 
-You will find the following types of _Ratings_ on
+You will find the following types of _Slider_ on https://fashgram-ui-documentation.netlify.app/slider.html
 
-> Read only ratings
-
-> Interactive ratings
+> Price sliders
 
 ---
 
@@ -284,7 +272,7 @@ You will find the following types of _Ratings_ on
 
 Toast  provides brief messages about app processes at the bottom of the screen.
 
-You will find the following types of _Toast_ on
+You will find the following types of _Toast_ on https://fashgram-ui-documentation.netlify.app/toast.html
 
 > Regular Toast
 
@@ -301,7 +289,7 @@ You will find the following types of _Toast_ on
 
 Use Typography to format the text of your website.
 
-You will find the following types of _Typography_ on 
+You will find the following types of _Typography_ on https://fashgram-ui-documentation.netlify.app/typography.html
 
 > Headings
 
