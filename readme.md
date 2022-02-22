@@ -314,6 +314,9 @@ git clone https://github.com/muskanbagrecha/component-library.git
 
 <br>
 
+## Themes
+Toggle between themes by clicking the button in the navbar. If theme does not change, click atleast twice. The bug fix will be addressed in the next iteration. 
+
 ## 👨‍💻 Lets connect !
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](muskanbagrecha.netlify.app)
