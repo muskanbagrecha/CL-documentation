@@ -8,8 +8,7 @@ A simple modern, and responsive framework for building components on the fly.
 
 ## Full Documentation
 
-[Demo](fashgram-ui-documentation.netlify.app)
-
+[Demo](https://fashgram-ui-documentation.netlify.app/)
 
 ## Quick Start
 
