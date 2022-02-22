@@ -10,23 +10,18 @@ if (localStorage.getItem("lastActiveSheet")) {
 
 function switchStyle() {
     let selectedSheet = this.getAttribute("data-stylesheet");
-    console.log(selectedSheet);
-    if (selectedSheet === "https://deploy-preview-5--card-input.netlify.app/lighttheme.css") {
-        selectedSheet = "https://deploy-preview-5--card-input.netlify.app/darktheme.css";
+    if (selectedSheet === "https://fashgram-ui.netlify.app/lighttheme.css") {
+        selectedSheet = "https://fashgram-ui.netlify.app/darktheme.css";
+        themeIcon.classList.remove('fa-moon');
+        themeIcon.classList.add('fa-sun');
     } else {
-        selectedSheet = "https://deploy-preview-5--card-input.netlify.app/lighttheme.css";
+        selectedSheet = "https://fashgram-ui.netlify.app/lighttheme.css";
+        themeIcon.classList.remove('fa-sun');
+        themeIcon.classList.add('fa-moon');
     }
     this.setAttribute("data-stylesheet", selectedSheet);
     activeSheet.setAttribute("href", selectedSheet);
     localStorage.setItem("lastActiveSheet", selectedSheet);
-    if(themeIcon.classList.contains('fa-moon')) {
-        themeIcon.classList.remove('fa-moon');
-        themeIcon.classList.add('fa-sun');
-    }
-    else{
-        themeIcon.classList.remove('fa-sun');
-        themeIcon.classList.add('fa-moon');
-    }
 }
 
 themeToggle.addEventListener('click', switchStyle);
