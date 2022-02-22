@@ -10,6 +10,17 @@ A simple modern, and responsive framework for building components on the fly.
 
 [Demo](https://fashgram-ui-documentation.netlify.app/)
 
+## Video Demo
+
+- Light theme
+
+https://user-images.githubusercontent.com/46674359/155197101-a7cc5499-1531-4ec0-936a-f42415f32898.mp4
+
+- Dark theme
+
+https://user-images.githubusercontent.com/46674359/155198974-54313819-fda9-4f2b-9edf-84970f5c6852.mp4
+
+
 ## Quick Start
 
 To start using this component library, paste the following code snippet in your HTML head tag. Please note that your own stylesheets should be included after this stylesheet to allow customization.
@@ -314,7 +325,7 @@ git clone https://github.com/muskanbagrecha/component-library.git
 
 <br>
 
-## Themes
+## Note
 Toggle between themes by clicking the button in the navbar. If theme does not change, click atleast twice. The bug fix will be addressed in the next iteration. 
 
 ## 👨‍💻 Lets connect !
