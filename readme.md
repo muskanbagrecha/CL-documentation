@@ -268,6 +268,18 @@ You will find the following types of _Ratings_ on
 
 ---
 
+### Slider
+
+Ratings are used to show the user the rating of a product or service.
+
+You will find the following types of _Ratings_ on
+
+> Read only ratings
+
+> Interactive ratings
+
+---
+
 ### Toast
 
 Toast  provides brief messages about app processes at the bottom of the screen.
