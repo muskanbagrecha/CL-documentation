@@ -348,6 +348,14 @@ footer {
     padding-inline: 0;
 }
 
+.grid-2-col-2-row, .grid-3-col-1-row{
+    gap: 1rem;
+}
+
+.grid-2-col-2-row  *{
+    max-height: 20rem;
+}
+
 .btn-floating.doc-float{
     right: 1rem;
     bottom: 2rem;
