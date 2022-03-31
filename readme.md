@@ -1,6 +1,8 @@
 # Fashgram UI
 
-A simple modern, and responsive framework for building components on the fly.
+A simple modern, and responsive framework for building components on the fly. 
+<br />
+Fashgram Component Library can be found here -> [Fashgram](https://github.com/muskanbagrecha/component-library/tree/dev)
 
 ## Author
 
