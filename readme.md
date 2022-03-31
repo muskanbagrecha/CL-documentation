@@ -198,6 +198,10 @@ You will find the following types of _Grid_ on https://fashgram-ui-documentation
 
 > Grid 70-30
 
+> Grid with 3 items - 3 col 1 row
+
+> Grid with 3 items - 2 col 2 row
+
 ### Image
 
 Image components are used when you need to display pictures.
